@@ -56,8 +56,12 @@ do{
                 System.out.print("Cute ok what do you want to replace it with?");
                 String replace = s.next();
                 list.set(index1, replace);
+                break;
 
 
+            default:
+                System.out.print("Error message, please try again.");
+            
 
         }
     } while (options != 5);
